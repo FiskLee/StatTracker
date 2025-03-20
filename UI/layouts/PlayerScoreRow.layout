@@ -1,0 +1,113 @@
+PanelWidgetClass {
+ Name "PlayerScoreRow"
+ Slot AlignableSlot "{5D863E7B2AD25D6F}" {
+  HorizontalAlign 3
+  Padding 0 2 0 2
+ }
+ Color 0.059 0.059 0.059 0.6
+ style outline
+ {
+  HorizontalLayoutWidgetClass "{5D863E7B2AD25D70}" {
+   Name "RowLayout"
+   Slot FrameWidgetSlot "{5D863E7B2AD25D71}" {
+    OffsetLeft 10
+    OffsetTop 0
+    SizeX 1480
+    SizeY 30
+    Alignment 0 0.5
+   }
+   {
+    TextWidgetClass "{5D863E7B2AD25D72}" {
+     Name "PlayerNameText"
+     Slot LayoutSlot "{5D863E7B2AD25D73}" {
+      SizeX 250
+     }
+     Text "Player Name"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D74}" {
+     Name "RankText"
+     Slot LayoutSlot "{5D863E7B2AD25D75}" {
+      SizeX 100
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D76}" {
+     Name "ScoreText"
+     Slot LayoutSlot "{5D863E7B2AD25D77}" {
+      SizeX 100
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D78}" {
+     Name "KillsText"
+     Slot LayoutSlot "{5D863E7B2AD25D79}" {
+      SizeX 100
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D7A}" {
+     Name "DeathsText"
+     Slot LayoutSlot "{5D863E7B2AD25D7B}" {
+      SizeX 100
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D7C}" {
+     Name "BasesCapturedText"
+     Slot LayoutSlot "{5D863E7B2AD25D7D}" {
+      SizeX 150
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D7E}" {
+     Name "BasesLostText"
+     Slot LayoutSlot "{5D863E7B2AD25D7F}" {
+      SizeX 150
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D80}" {
+     Name "AIKillsText"
+     Slot LayoutSlot "{5D863E7B2AD25D81}" {
+      SizeX 130
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D82}" {
+     Name "VehicleKillsText"
+     Slot LayoutSlot "{5D863E7B2AD25D83}" {
+      SizeX 150
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+    TextWidgetClass "{5D863E7B2AD25D84}" {
+     Name "SuppliesText"
+     Slot LayoutSlot "{5D863E7B2AD25D85}" {
+      SizeX 150
+     }
+     Text "0"
+     "Font Size" 14
+     "Min Font Size" 14
+    }
+   }
+  }
+ }
+} 

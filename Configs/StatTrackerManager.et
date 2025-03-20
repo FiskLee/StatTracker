@@ -1,0 +1,16 @@
+EntityTemplateResourceClass {
+ ID "5D863E7B2AD25D86"
+ ClassName "Entity"
+ DisplayName "StatTracker Manager"
+ Prefab "{5D863E7B2AD25D87}"
+ Components {
+  SCR_BaseGameModeComponent "{5D863E7B2AD25D88}" {
+   m_fAutoReloadTime 30
+  }
+  RplComponent "{5D863E7B2AD25D89}" {
+   Streamable Disabled
+  }
+  STS_StatTrackingManagerComponent "{5D863E7B2AD25D8A}" {
+  }
+ }
+} 

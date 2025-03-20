@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "StatTracker"
+ Author "Your Name"
+ Description "Advanced statistics tracking system for Arma Reforger servers. Tracks player kills, deaths, objective captures, and more. Includes real-time scoreboards, detailed logging, multi-language support, and a web dashboard."
+ Version "3.3.0"
+ InputSettings {
+  SettingsFile "{1B18E3C4E0C60CEB}StatTracker/Configs/Input.conf"
+ }
+ Tags {
+  "Statistics"
+  "Server"
+  "UI"
+  "Utility"
+  "Admin"
+ }
+ PreviewImageSet {
+  "StatTracker/UI/Images/Preview.edds"
+ }
+} 

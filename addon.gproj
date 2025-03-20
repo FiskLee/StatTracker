@@ -1,0 +1,131 @@
+GameProjectClass {
+ ID "StatTracker"
+ GUID "5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e1b"
+ Version "3.3.0"
+ Name "StatTracker"
+ Type MOD
+ Dependencies {
+  "58D0FB3206B6F859" "Reforger"
+ }
+ Configurations {
+  GameProjectConfigClass PC {
+   ReleaseRepositories {
+    "LocalRepository"
+   }
+  }
+  GameProjectConfigClass XBOX_ONE {
+  }
+  GameProjectConfigClass XBOX_SERIES {
+  }
+  GameProjectConfigClass PS4 {
+  }
+  GameProjectConfigClass HEADLESS {
+  }
+ }
+ ResDirectories {
+  GameProjectResDirectoryClass {
+   Path "GUI"
+  }
+  GameProjectResDirectoryClass {
+   Path "Scripts"
+  }
+  GameProjectResDirectoryClass {
+   Path "Configs"
+  }
+  GameProjectResDirectoryClass {
+   Path "UI"
+  }
+ }
+ Databases {
+  GameDatabaseClass {
+  }
+ }
+ Modules {
+  GameProjectModuleClass {
+   Name "StatTrackerModule"
+   Entities {
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e1c}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_StatTrackingComponent.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e1d}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_StatTrackingManagerComponent.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e1e}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_ScoreboardHUD.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e1f}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_Main.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e20}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_LoggingSystem.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e21}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_VoteKickSystem.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e22}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_ChatLogger.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e23}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_TeamKillTracker.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e24}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_Config.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e25}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_PersistenceManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e26}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_RCONCommands.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e27}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_AdminMenu.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e28}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_NotificationManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e29}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/STS_BackupManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e30}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Integration/STS_AdvancedBackupSystem.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e31}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Integration/STS_WebhookManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e32}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Integration/STS_MultiServerIntegration.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e33}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Integration/STS_MultiServerManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e34}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Integration/STS_DiscordIntegration.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e35}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Integration/STS_DiscordBotManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e36}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Analytics/STS_DeathConcentrationAnalysis.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e37}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Analytics/STS_PeakTimeForecasting.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e38}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Analytics/STS_AnalyticsManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e39}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Portal/STS_PersonalStatsPortal.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e40}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Database/STS_DatabaseManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e41}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Performance/STS_MemoryManager.c"
+    }
+    EntityClassReference "{5c2c3d1a-b4d7-4e8f-b2c6-a9d6f4a27e42}" {
+     TargetName "StatTracker/Scripts/Game/StatTracker/Performance/STS_PerformanceMonitor.c"
+    }
+   }
+  }
+ }
+} 

@@ -1,0 +1,74 @@
+FrameWidgetClass AnnouncementFrame {
+    position 0 0
+    size 1 1
+    halign center_ref
+    valign center_ref
+    hexactpos 0
+    vexactpos 0
+    hexactsize 0
+    vexactsize 0
+    priority 1000
+    
+    PanelWidgetClass AnnouncementBackground {
+        ignorepointer 1
+        color 0 0 0 0.7
+        position 0 0
+        size 1 1
+        halign center_ref
+        valign center_ref
+        hexactpos 0
+        vexactpos 0
+        hexactsize 0
+        vexactsize 0
+        style rover_sim_colorable
+    }
+    
+    PanelWidgetClass AnnouncementPanel {
+        ignorepointer 1
+        color 0.05 0.05 0.05 0.95
+        position 0 0
+        size 600 200
+        halign center_ref
+        valign center_ref
+        hexactpos 1
+        vexactpos 1
+        hexactsize 1
+        vexactsize 1
+        style rover_sim_colorable
+        
+        TextWidgetClass AnnouncementTitle {
+            ignorepointer 1
+            position 0 10
+            size 560 40
+            halign center_ref
+            valign top_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "ADMIN ANNOUNCEMENT"
+            font "gui/fonts/sdf_MetronBook30"
+            "text color" 0.9 0.1 0.1 1
+            "exact text" 1
+            "text halign" center
+            "text valign" center
+        }
+        
+        TextWidgetClass AnnouncementText {
+            ignorepointer 1
+            position 0 60
+            size 560 120
+            halign center_ref
+            valign top_ref
+            hexactpos 1
+            vexactpos 1
+            hexactsize 1
+            vexactsize 1
+            text "Announcement message"
+            font "gui/fonts/sdf_MetronBook24"
+            "exact text" 0
+            "text halign" center
+            "text valign" center
+        }
+    }
+} 

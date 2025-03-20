@@ -1,0 +1,248 @@
+FrameWidgetClass {
+ Name "Root"
+ {
+  PanelWidgetClass "{5D863E7B2AD25D23}" {
+   Name "MiniScorePanel"
+   Slot FrameWidgetSlot "{5D863E7B2AD25D39}" {
+    Anchor 1 0 1 0
+    PositionX -250
+    PositionY 10
+    SizeX 240
+    SizeY 100
+   }
+   Color 0 0 0 0.502
+   {
+    VerticalLayoutWidgetClass "{5D863E7B2AD25D3A}" {
+     Name "MiniScorePanelContent"
+     Slot FrameWidgetSlot "{5D863E7B2AD25D3B}" {
+      OffsetLeft 10
+      OffsetTop 10
+      SizeX 220
+      SizeY 80
+      Alignment 0 0
+     }
+     {
+      TextWidgetClass "{5D863E7B2AD25D3C}" {
+       Name "PlayerRankText"
+       Slot LayoutSlot "{5D863E7B2AD25D3D}" {
+       }
+       Text "Rank: 0"
+       "Font Size" 14
+       "Min Font Size" 14
+      }
+      TextWidgetClass "{5D863E7B2AD25D3E}" {
+       Name "PlayerXPText"
+       Slot LayoutSlot "{5D863E7B2AD25D3F}" {
+       }
+       Text "XP: 0"
+       "Font Size" 14
+       "Min Font Size" 14
+      }
+      TextWidgetClass "{5D863E7B2AD25D40}" {
+       Name "PlayerKillsText"
+       Slot LayoutSlot "{5D863E7B2AD25D41}" {
+       }
+       Text "Kills: 0"
+       "Font Size" 14
+       "Min Font Size" 14
+      }
+      TextWidgetClass "{5D863E7B2AD25D42}" {
+       Name "PlayerDeathsText"
+       Slot LayoutSlot "{5D863E7B2AD25D43}" {
+       }
+       Text "Deaths: 0"
+       "Font Size" 14
+       "Min Font Size" 14
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass "{5D863E7B2AD25D44}" {
+   Name "ScoreboardPanel"
+   Slot FrameWidgetSlot "{5D863E7B2AD25D45}" {
+    PositionX 200
+    PositionY 150
+    SizeX 1520
+    SizeY 780
+   }
+   Color 0 0 0 0.8
+   {
+    VerticalLayoutWidgetClass "{5D863E7B2AD25D46}" {
+     Name "ScoreboardLayout"
+     Slot FrameWidgetSlot "{5D863E7B2AD25D47}" {
+      OffsetLeft 10
+      OffsetTop 10
+      SizeX 1500
+      SizeY 760
+      Alignment 0 0
+     }
+     {
+      TextWidgetClass "{5D863E7B2AD25D48}" {
+       Name "ScoreboardTitle"
+       Slot LayoutSlot "{5D863E7B2AD25D49}" {
+        Padding 0 0 0 10
+       }
+       Text "SCOREBOARD"
+       "Font Size" 24
+       "Min Font Size" 24
+       FontProperties FontProperties "{5D863E7B2AD25D4A}" {
+        Bold 1
+       }
+      }
+      PanelWidgetClass "{5D863E7B2AD25D4B}" {
+       Name "HeaderPanel"
+       Slot LayoutSlot "{5D863E7B2AD25D4C}" {
+        Padding 0 5 0 5
+       }
+       Color 0.761 0.386 0.078 1
+       {
+        HorizontalLayoutWidgetClass "{5D863E7B2AD25D4D}" {
+         Name "HeaderLayout"
+         Slot FrameWidgetSlot "{5D863E7B2AD25D4E}" {
+          OffsetLeft 10
+          OffsetTop 0
+          SizeX 1480
+          SizeY 30
+          Alignment 0 0.5
+         }
+         {
+          TextWidgetClass "{5D863E7B2AD25D4F}" {
+           Name "HeaderName"
+           Slot LayoutSlot "{5D863E7B2AD25D50}" {
+            SizeX 250
+           }
+           Text "PLAYER"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D51}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D52}" {
+           Name "HeaderRank"
+           Slot LayoutSlot "{5D863E7B2AD25D53}" {
+            SizeX 100
+           }
+           Text "RANK"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D54}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D55}" {
+           Name "HeaderScore"
+           Slot LayoutSlot "{5D863E7B2AD25D56}" {
+            SizeX 100
+           }
+           Text "SCORE"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D57}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D58}" {
+           Name "HeaderKills"
+           Slot LayoutSlot "{5D863E7B2AD25D59}" {
+            SizeX 100
+           }
+           Text "KILLS"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D5A}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D5B}" {
+           Name "HeaderDeaths"
+           Slot LayoutSlot "{5D863E7B2AD25D5C}" {
+            SizeX 100
+           }
+           Text "DEATHS"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D5D}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D5E}" {
+           Name "HeaderBasesCaptured"
+           Slot LayoutSlot "{5D863E7B2AD25D5F}" {
+            SizeX 150
+           }
+           Text "BASES CAP"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D60}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D61}" {
+           Name "HeaderBasesLost"
+           Slot LayoutSlot "{5D863E7B2AD25D62}" {
+            SizeX 150
+           }
+           Text "BASES LOST"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D63}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D64}" {
+           Name "HeaderAIKills"
+           Slot LayoutSlot "{5D863E7B2AD25D65}" {
+            SizeX 130
+           }
+           Text "AI KILLS"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D66}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D67}" {
+           Name "HeaderVehicleKills"
+           Slot LayoutSlot "{5D863E7B2AD25D68}" {
+            SizeX 150
+           }
+           Text "VEH KILLS"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D69}" {
+            Bold 1
+           }
+          }
+          TextWidgetClass "{5D863E7B2AD25D6A}" {
+           Name "HeaderSupplies"
+           Slot LayoutSlot "{5D863E7B2AD25D6B}" {
+            SizeX 150
+           }
+           Text "SUPPLIES"
+           "Font Size" 16
+           "Min Font Size" 16
+           FontProperties FontProperties "{5D863E7B2AD25D6C}" {
+            Bold 1
+           }
+          }
+         }
+        }
+       }
+      }
+      ScrollLayoutWidgetClass "{5D863E7B2AD25D6D}" {
+       Name "ScoreboardPanelContent"
+       Slot LayoutSlot "{5D863E7B2AD25D6E}" {
+        SizeMode Fill
+       }
+       HeightOverride 680
+       {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+} 
